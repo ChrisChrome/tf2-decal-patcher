@@ -4,7 +4,7 @@
 #ifdef WINDOWS
     const char path_sep = '\\';
     const char *path_sep_str = "\\";
-#elif LINUX
+#elif defined(LINUX)
     const char path_sep = '/';
     const char *path_sep_str = "/";
 #endif

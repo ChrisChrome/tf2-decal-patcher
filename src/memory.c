@@ -49,7 +49,7 @@
         return false;
     }
 
-#elif LINUX
+#elif defined(LINUX)
 
     bool read_mem(const void *base, void *buf, size_t sz)
     {
